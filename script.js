@@ -4,6 +4,8 @@ let mult = x * y;
 //alert(mult);
 if (isNaN(mult)) {
   alert("Error!!!!");
-} else {
+} else if (x > 0 && y > 0) {
   alert(mult);
+} else {
+  alert("x and y must be > 0");
 }
