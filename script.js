@@ -3,7 +3,7 @@ let y = prompt("Input y");
 let mult = x * y;
 //alert(mult);
 if (isNaN(mult)) {
-  alert("Error!");
+  alert("Error!!!!");
 } else {
   alert(mult);
 }
